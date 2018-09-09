@@ -1,0 +1,30 @@
+{
+  "name": "@porla-contrib/webhook",
+  "version": "0.0.1",
+  "description": "A webhook plugin for Porla.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porla-contrib/webhook.git"
+  },
+  "keywords": [
+    "porla",
+    "webhook",
+    "plugin"
+  ],
+  "author": "Viktor Elofsson <viktor@viktorelofsson.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/porla-contrib/webhook/issues"
+  },
+  "homepage": "https://github.com/porla-contrib/webhook#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
