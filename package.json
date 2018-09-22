@@ -13,7 +13,7 @@
   "keywords": [
     "porla",
     "webhook",
-    "plugin"
+    "porla-plugin"
   ],
   "author": "Viktor Elofsson <viktor@viktorelofsson.se>",
   "license": "MIT",
@@ -26,5 +26,8 @@
   },
   "dependencies": {
     "request": "^2.88.0"
+  },
+  "peerDependencies": {
+    "@porla/porla": "^0.3.0"
   }
 }
